@@ -53,3 +53,5 @@ M
 src/App.test.js,9\2\923703ced91ac38943d37930d9d27a7ebe8f01ad
 Q
 !src/styles/layouts/Navbar.css.map,1\a\1a4c238f822bcccd61f4ccc3ece3d3e29e4885cd
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b

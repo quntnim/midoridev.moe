@@ -8,11 +8,18 @@
   color: inherit;
 }
 
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf") format("opentype");
+}
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   backdrop-filter: blur(5px);
   height: 70px;
   display: flex;
@@ -23,9 +30,23 @@
   color: #78A083;
 }
 
+.midori-dev {
+  font-family: DNFBitBitv2, serif;
+  font-size: 3rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 nav {
   display: flex;
-  gap: 900px;
+  gap: 40vw;
+  align-items: center;
 }
 
 /*# sourceMappingURL=Navbar.css.map */

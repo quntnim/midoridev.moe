@@ -6,8 +6,13 @@ const CustomNavbar = () => {
     return (
         <div className="navbar">
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/subpage">Subpage</Link>
+                <Link to="/" className="midori-dev">&lt;/&gt;</Link>
+                <div className="social-media">
+                    <Link to="/subpage">Github</Link>
+                    <Link to="/subpage">Twitter</Link>
+                    <Link to="/subpage">Discord</Link>
+                    <Link to="/subpage">Reserve</Link>
+                </div>
             </nav>
 
             <Outlet/>
