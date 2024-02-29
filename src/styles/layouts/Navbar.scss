@@ -9,11 +9,6 @@
   color: inherit;
 }
 
-@font-face{
-  font-family:'DNFBitBitv2';
-  font-style:normal;font-weight:400;src:url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype')
-}
-
 .navbar {
   position: fixed; // Navbar를 상단에 고정시키는 코드를 추가
   top: 0; // 상단에 고정되도록 하는 코드를 추가
@@ -27,12 +22,12 @@
   align-items: center;
 
   a {
-    color: #78A083; // Adding color rule to "a" tag
+    color: #F2EFE5; // Adding color rule to "a" tag
   }
 }
 
 .midori-dev {
-  font-family: DNFBitBitv2, serif;
+  font-weight: 100;
   font-size: 3rem;
 }
 
@@ -49,3 +44,4 @@ nav {
   gap: 40vw;
   align-items: center;
 }
+

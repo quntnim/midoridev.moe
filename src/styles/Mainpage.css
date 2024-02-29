@@ -39,11 +39,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #35374B;
+  background-color: #B4B4B8;
 }
 
 .title {
-  color: #78A083;
+  color: #F2EFE5;
   font-size: 4em;
   font-weight: bold;
 }
@@ -62,7 +62,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #78A083;
+  background-color: #F2EFE5;
   transition: transform 0.3s ease-in-out;
 }
 .dot:hover {

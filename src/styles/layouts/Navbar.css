@@ -8,12 +8,6 @@
   color: inherit;
 }
 
-@font-face {
-  font-family: "DNFBitBitv2";
-  font-style: normal;
-  font-weight: 400;
-  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf") format("opentype");
-}
 .navbar {
   position: fixed;
   top: 0;
@@ -27,11 +21,11 @@
   align-items: center;
 }
 .navbar a {
-  color: #78A083;
+  color: #F2EFE5;
 }
 
 .midori-dev {
-  font-family: DNFBitBitv2, serif;
+  font-weight: 100;
   font-size: 3rem;
 }
 

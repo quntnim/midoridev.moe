@@ -1,3 +1,9 @@
+@mixin display-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   scrollbar-width: none;
 }
@@ -36,14 +42,12 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #35374B;
+  @include display-center();
+  background-color: #B4B4B8;
 }
 
 .title {
-  color: #78A083;
+  color: #F2EFE5;
   font-size: 4em;
   font-weight: bold;
 }
@@ -62,7 +66,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #78A083;
+  background-color: #F2EFE5;
   transition: transform 0.3s ease-in-out;
   &:hover {
     transform: scale(1.3);
